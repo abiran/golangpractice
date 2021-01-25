@@ -13,6 +13,12 @@ func iterative() {
 	for i := 0; i < 100; i++ {
 		fmt.Println(i)
 	}
+	boo()
+}
+
+func boo() {
+	fmt.Println("And now we are doneeeeee")
+
 }
 
 func foo() {
